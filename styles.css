@@ -1,3 +1,7 @@
 body {
     background-color: rgb(196, 137, 11);
   }
+.mensaje {
+    height: 300p;
+    width: 300p;
+}
