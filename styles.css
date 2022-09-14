@@ -1,7 +1,9 @@
 body {
-    background-color: rgb(196, 137, 11);
+    background-color: rgb(0, 0, 0);
   }
-.mensaje {
-    height: 300p;
-    width: 300p;
-}
+  p, h1, h2, h3 {color: chartreuse; font-family: 'Times New Roman', Times, serif;}
+h1 {text-align: center;
+    bac}
+ * {border: 2px; border-style:groove; border-color: chartreuse;}
+
+nav {padding: 30px;}
