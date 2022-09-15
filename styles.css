@@ -1,27 +1,110 @@
+
+header{
+  padding-top: 0;
+  position:fixed;
+  width: 100%;
+  height: 220px;
+  background-image: url(ma3.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+img.logo{
+  width: 650px;
+  height: 120px;
+}
 body {
-    background-color: rgb(255, 255, 255); 
+  background-color: rgb(0, 0, 0);
+  margin: 0;
 }
-  p, h1, h2, h3 {color: rgb(0, 0, 0); font-family: 'Times New Roman', Times, serif;}
+.contenido {
+  padding-top: 220px;
+position: static ;
+}
+
+  p, h2, h3 {
+    color: rgb(255, 255, 255);
+     font-family: 'Times New Roman', Times, serif;}
+
+@font-face {
+  font-family: SigmarOne;
+  src: url(fonts/SigmarOne-Regular.ttf);
+  font-weight: bold;
+  }
+
 h1 {
+  font-family: SigmarOne;
+  font-size: 50px;
+  color: rgb(255, 200, 0);
   text-align: center;
-  background-color: rgb(197, 31, 31);
-  padding: 20px;
+  height: 80px;
+  font-size-adjust: 0.6;
 }
-nav{
-  width: 800px;
-  height: 50px;
-  margin: 0 auto;
+.barranav div{
+  width: 100%;
+  height: auto;
+  align-self: center;
+  
 }
-nav ul li a{
+div ul li a{
   border: 1px solid rgb(0, 0, 0);
-  position: relative;
-  display: block;
-  width: 100px ;
   float: left;
   text-align: center;
-
+  background-color: rgba(201, 7, 255, 0.3) ;
+  width: 100%;
 }
-nav ul{
+
+div ul{
   list-style: none ;
-  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0 0 0 0;
+  margin-bottom: 0;
+}
+
+div li{
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+}
+
+.navegador p {
+  font-family: SigmarOne;
+  font-size: 20px;
+  color: rgb(255, 200, 0);
+}
+div.logo{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-family: SigmarOne;
+  font-size: 20px;
+  color: rgb(255, 200, 0);
+}
+
+@keyframes example {
+  0%   { opacity: 0; left:100px}
+  25%  { opacity: 1;}
+  50%  { opacity: 0; right:200px}
+  75%  { opacity: 1;}
+  100% { opacity: 0; left:100px}
+}
+div.imgindex {
+  padding-top: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.imgindex img{
+  width: 80%;
+}
+#subtituloanimado{
+  animation-name: example;
+  animation-duration: 10s;
 }
