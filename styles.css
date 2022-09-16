@@ -96,7 +96,6 @@ div.logo{
   100% { opacity: 0; left:100px}
 }
 div.imgindex {
-  padding-top: 100px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -105,6 +104,19 @@ div.imgindex {
   width: 80%;
 }
 #subtituloanimado{
+  text-align: center;
+  font-family: SigmarOne;
+  font-size: 100px;
   animation-name: example;
   animation-duration: 10s;
+}
+
+#bienvenida{
+  text-align: center;
+  font-family: SigmarOne;
+  font-size: 50px;
+}
+
+#entrar{
+  text-decoration-line: none;
 }
