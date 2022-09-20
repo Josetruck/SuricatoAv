@@ -8,6 +8,7 @@ header{
   background-size:cover;
   background-repeat: no-repeat;
   margin: 0;
+  z-index: 1;
 }
 img.logo{
   width: 650px;
@@ -114,7 +115,7 @@ div.imgindex {
 
 .imgindex img{
   width: 80%;
-  padding-top: 40px;
+  padding-top: 30px;
   animation-name: zoomin;
   animation-duration: 2s;
 }
@@ -133,7 +134,7 @@ div.imgindex {
   text-align: center;
   font-family: terminalfont;
   font-size: 50px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 #entrar{
@@ -143,7 +144,6 @@ div.imgindex {
   height: 240px;
   margin-top: 10px;
   padding-bottom: 30px;
-  padding-top: 10px;
 }
 #subtituloanimado:hover{
   text-decoration-line: underline;
@@ -181,7 +181,7 @@ div.contenido p.pcentrado{
 }
 
 .biocontent{
-  padding: 220px 100px;
+  padding: 220px 100px 0px 100px;
   position: static;
   display: flex;
   flex-flow: row;
@@ -211,4 +211,48 @@ div.contenido p.pcentrado{
 .contenido{
   animation-name: fadein;
   animation-duration: 1s;
+}
+
+.flip{
+  position: relative;
+  transition: all 1s ease;
+  transform-style: preserve-3d;
+
+  }
+  .flip:hover{
+  transform: rotateY(-180deg);
+  }
+
+.flip .flip1,
+.flip .flip2{
+position: absolute;
+backface-visibility: hidden;
+}
+.flip .flip2{
+transform: rotateY(-180deg);
+}
+
+.biodescripcion{
+  padding-top: 340px;
+  
+}
+
+.portfolio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.portfolio div{
+  text-align: center;
+  margin: 20px;
+}
+
+#titulocentrado{
+  text-align: center;
+  font-size: 30px;
+}
+
+form{
+  font-family: terminalfont;
+  color: white;
 }
