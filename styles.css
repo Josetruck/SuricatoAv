@@ -256,3 +256,19 @@ form{
   font-family: terminalfont;
   color: white;
 }
+
+#redes ul li {
+  background-color: black;
+  text-align: center;
+  font-family: terminalfont;
+  color: white;
+}
+
+#redes ul li a{
+  background-color: black;
+}
+
+#contacto{
+  display:flex;
+  flex-direction: column;
+}
