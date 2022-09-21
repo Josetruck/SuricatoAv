@@ -39,26 +39,26 @@
     </header>
     <div class="contenido">
         <div>
-            <h2 id="titulocentrado">Redes Sociales</h2>
+            <h2 class="titulocentrado">Redes Sociales</h2>
             <div id="redes">
                 <ul>
-                    <li><a href="https://www.instagram.com/troninosound/"><img src="images/logoig.bmp"
+                    <li><a href="https://www.instagram.com/troninosound/" target="_blank"><img src="images/logoig.bmp"
                                 alt="Instagram"></a> Instagram</li>
-                    <li><a href="https://twitter.com/tronino_tr9"><img src="images/logotw.bmp" alt="Twitter"></a>
+                    <li><a href="https://twitter.com/tronino_tr9" target="_blank"><img src="images/logotw.bmp" alt="Twitter"></a>
                         Twitter</li>
-                    <li><a href="https://www.facebook.com/TroninoSound"><img src="images/logofb.bmp" alt="Facebook"></a>
+                    <li><a href="https://www.facebook.com/TroninoSound" target="_blank"><img src="images/logofb.bmp" alt="Facebook"></a>
                         Facebook</li>
-                    <li><a href="https://es.linkedin.com/in/jose-contreras-fernandez-02a008a3"><img
+                    <li><a href="https://es.linkedin.com/in/jose-contreras-fernandez-02a008a3" target="_blank"><img
                                 src="images/logoin.bmp" alt=""></a> LinkedIn</li>
                 </ul>
             </div>
             <div id="contacto">
                 <h2>Teléfono:</h2>
-                <p>647611807</p>
+                <p>(+34) 647 611 807 <br>(+34) 678 701 449</p>
 
                 <h2>Correo electrónico</h2>
 
-                <form action="guardar.js" method="GET">
+                <form>
                     <table>
                         <tr>
                             <td><label>Tu nombre:</label></td>
@@ -69,14 +69,19 @@
                             <td><input type="text" name="name"></td>
                         </tr>
                         <tr>
-                            <td><label>Mensaje</label></td>
-                            <td><input type="text" name="name"></td>
+                            <td id="mensaje"><label>Mensaje:</label></td>
+                            <td><textarea name="mensaje" id="" cols="21" rows="4"></textarea></td>
                         </tr>
-
+                        <tr>
+                            <td></td>
+                            <td id="enviar"><button>Enviar</button></td>
+                        </tr>
                     </table>
+                </form>
             </div>
         </div>
     </div>
+    <footer><p>Copyright © 2008 - 2022 Troninosound - Todos los derechos reservados</p></footer>
 </body>
 
 </html>

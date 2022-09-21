@@ -247,7 +247,7 @@ transform: rotateY(-180deg);
   margin: 20px;
 }
 
-#titulocentrado{
+.titulocentrado{
   text-align: center;
   font-size: 30px;
 }
@@ -257,7 +257,14 @@ form{
   color: white;
 }
 
+#redes{
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
 #redes ul li {
+  height: 132px;
+  width: 132px;
   background-color: black;
   text-align: center;
   font-family: terminalfont;
@@ -268,7 +275,18 @@ form{
   background-color: black;
 }
 
-#contacto{
+div#contacto{
   display:flex;
   flex-direction: column;
+  align-items: center;
+}
+td#mensaje{
+  display: block;
+}
+#enviar{
+  display: flex;
+  justify-content: right;
+}
+footer{
+  text-align: center;
 }
