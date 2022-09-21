@@ -28,7 +28,12 @@ padding-left: 20px;
 
     color: rgb(255, 255, 255);
     font-family: terminalfont;}
-    
+ 
+    h3{
+      font-size: 24px;
+      padding-top: 20px;
+    }
+  
 
 @font-face {
   font-family: SigmarOne;
@@ -61,6 +66,10 @@ div ul li a{
   text-align: center;
   background-color: rgba(43, 43, 43, 0.3) ;
   width: 100%;
+  text-decoration: none;
+}
+div ul li a:hover{
+  text-decoration: underline white;
 }
 
 div ul{
@@ -69,7 +78,7 @@ div ul{
   width: 100%;
   height: 100%;
   justify-content: space-between;
-  padding: 0 0 0 0;
+  padding: 0;
   margin-bottom: 0;
 }
 
@@ -181,7 +190,7 @@ div.contenido p.pcentrado{
 }
 
 .biocontent{
-  padding: 220px 100px 0px 100px;
+  padding: 240px 100px 0px 100px;
   position: static;
   display: flex;
   flex-flow: row;
@@ -214,10 +223,11 @@ div.contenido p.pcentrado{
 }
 
 .flip{
+  display: flex;
+  justify-content: center;
   position: relative;
   transition: all 1s ease;
   transform-style: preserve-3d;
-
   }
   .flip:hover{
   transform: rotateY(-180deg);
@@ -238,9 +248,10 @@ transform: rotateY(-180deg);
 }
 
 .portfolio{
-  display: flex;
+  display: block;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 100%;
 }
 .portfolio div{
   text-align: center;
@@ -258,6 +269,7 @@ form{
 }
 
 #redes{
+  padding: 20px;
   margin-right: 100px;
   margin-left: 80px;
 }
@@ -288,5 +300,6 @@ td#mensaje{
   justify-content: right;
 }
 footer{
+  display: block;
   text-align: center;
 }
