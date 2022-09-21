@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,50 +8,75 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="logo"><img class="logo" src="images/logo_tronino.png" alt="Logo tronino"></div>
         <div>
             <ul>
-                <li><a href="home.html"><div class="navegador"><p>Home</p></div></a></li>           
-                <li><a href="biografia.html"><div class="navegador"><p>Historia</p></div></a></li> 
-                <li><a href="portfolio.html"><div class="navegador"><p>Portfolio</p></div></a></li>
-                <li><a href="contacto.html"><div class="navegador"><p>Contacto</p></div></a></li>
+                <li><a href="home.html">
+                        <div class="navegador">
+                            <p>Home</p>
+                        </div>
+                    </a></li>
+                <li><a href="biografia.html">
+                        <div class="navegador">
+                            <p>Historia</p>
+                        </div>
+                    </a></li>
+                <li><a href="portfolio.html">
+                        <div class="navegador">
+                            <p>Portfolio</p>
+                        </div>
+                    </a></li>
+                <li><a href="contacto.html">
+                        <div class="navegador">
+                            <p>Contacto</p>
+                        </div>
+                    </a></li>
             </ul>
         </div>
     </header>
-<div class="contenido">
-    <div>
-        <h2>Redes Sociales</h2>
-        <div id="redes">
-            <ul>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
-                <li>LinkedIn</li>
-            </ul>
-        </div>
-        <h2>Teléfono:</h2>
-        <p>647611807</p>
-        <h2>Correo electrónico</h2>
+    <div class="contenido">
+        <div>
+            <h2 id="titulocentrado">Redes Sociales</h2>
+            <div id="redes">
+                <ul>
+                    <li><a href="https://www.instagram.com/troninosound/"><img src="images/logoig.bmp"
+                                alt="Instagram"></a> Instagram</li>
+                    <li><a href="https://twitter.com/tronino_tr9"><img src="images/logotw.bmp" alt="Twitter"></a>
+                        Twitter</li>
+                    <li><a href="https://www.facebook.com/TroninoSound"><img src="images/logofb.bmp" alt="Facebook"></a>
+                        Facebook</li>
+                    <li><a href="https://es.linkedin.com/in/jose-contreras-fernandez-02a008a3"><img
+                                src="images/logoin.bmp" alt=""></a> LinkedIn</li>
+                </ul>
+            </div>
+            <div id="contacto">
+                <h2>Teléfono:</h2>
+                <p>647611807</p>
 
-        <form action="guardar.js" method="GET">
-            <table>
-                <tr>
-                    <td><label>Tu nombre:</label></td>
-                    <td><input type="text" name="name"></td>
-                </tr>
-                <tr>
-                    <td><label>Tu e-mail:</label></td>
-                    <td><input type="text" name="name"></td>
-                </tr>
-                <tr>
-                    <td><label>Mensaje</label></td>
-                    <td><input type="text" name="name"></td>
-                </tr>
-                
-            </table>
+                <h2>Correo electrónico</h2>
+
+                <form action="guardar.js" method="GET">
+                    <table>
+                        <tr>
+                            <td><label>Tu nombre:</label></td>
+                            <td><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Tu e-mail:</label></td>
+                            <td><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Mensaje</label></td>
+                            <td><input type="text" name="name"></td>
+                        </tr>
+
+                    </table>
+            </div>
+        </div>
     </div>
-</div>
 </body>
+
 </html>
